@@ -4,16 +4,19 @@ https://www.npmjs.com/package/@sentio/hardhat-sentio
 
 ## Usage
 
-1. Login with sentio sdk first
+1. Install dependencies
 
 ``` bash
-yarn add -D @sentio/cli
+yarn add -D @sentio/cli @sentio/hardhat-sentio
+```
+
+2. Login with sentio sdk
+
+``` bash
 npx sentio login
 ```
 
-3. `yarn add -D @sentio/hardhat-sentio`
-
-4. Modify `hardhat.config.ts`
+3. Import sentio plugin and specify the project in `hardhat.config.ts`
 
 ``` typescript
 import "@sentio/hardhat-sentio"
