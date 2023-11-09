@@ -31,7 +31,7 @@ const config: HardhatUserConfig = {
 4. Upload and verify contracts with CLI
 
 ```
-npx hardhat sentio:upload Executor,Router
+npx hardhat sentio:upload Contract1,Contract2
 
-npx hardhat sentio:verify --contract Router --address 0xE03441E04F1f602e8Eb3ab80735a79880CA05AE5 --chain 137
+npx hardhat sentio:verify --contract Contract2 --address 0xF03441E04F1f602e8Eb3ab80735a79880CA05AE6 --chain 137
 ```
